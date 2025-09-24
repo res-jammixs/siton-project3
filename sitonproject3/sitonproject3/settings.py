@@ -55,7 +55,7 @@ ROOT_URLCONF = 'sitonproject3.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates/pos_app'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
